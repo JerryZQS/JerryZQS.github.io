@@ -5,20 +5,21 @@
   
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <link rel="dns-prefetch" href="https://jerryzqs.github.com/blog">
-  <title>Hexo</title>
+  <link rel="dns-prefetch" href="https://jerryzqs.github.io">
+  <title>Jerry的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="iOS开发">
+  <meta name="description" content="iOS码农一枚，现就职于小蚁科技，毕业于西北工业大学、航天二院">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://jerryzqs.github.com/blog/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="iOS开发">
+<meta property="og:title" content="Jerry的博客">
+<meta property="og:url" content="https://jerryzqs.github.io/index.html">
+<meta property="og:site_name" content="Jerry的博客">
+<meta property="og:description" content="iOS码农一枚，现就职于小蚁科技，毕业于西北工业大学、航天二院">
+<meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-<meta name="twitter:description" content="iOS开发">
+<meta name="twitter:title" content="Jerry的博客">
+<meta name="twitter:description" content="iOS码农一枚，现就职于小蚁科技，毕业于西北工业大学、航天二院">
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="Jerry的博客" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -48,16 +49,16 @@
 			<img src="https://avatars3.githubusercontent.com/u/14859733?v=4&amp;u=f90ad5fa6736cd58e5e022bdb145fb1d8280eef1&amp;s=400" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/">Jerry.Qiushi</a></h1>
+		  <h1 class="header-author"><a href="/">Jerry</a></h1>
 		</hgroup>
+		
+		<p class="header-subtitle">iOSer</p>
 		
 
 		<nav class="header-menu">
 			<ul>
 			
-				<li><a href="/">主页</a></li>
-	        
-				<li><a href="/tags/随笔/">随笔</a></li>
+				<li><a href="/">技术相关</a></li>
 	        
 			</ul>
 		</nav>
@@ -68,10 +69,6 @@
     			
             
     			
-    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
-    			
-            
-    			
     			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
     			
             
@@ -79,13 +76,7 @@
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
-		        
-					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
-		        
-					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+					<a class="github" target="_blank" href="https://github.com/JerryZQS" title="github"><i class="icon-github"></i></a>
 		        
 			</div>
 		</nav>
@@ -106,12 +97,12 @@
 				<img src="https://avatars3.githubusercontent.com/u/14859733?v=4&amp;u=f90ad5fa6736cd58e5e022bdb145fb1d8280eef1&amp;s=400" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author">Jerry.Qiushi</h1>
+			  <h1 class="header-author js-header-author">Jerry</h1>
 			</hgroup>
 			
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>iOSer<i class="icon icon-quo-right"></i></p>
 			
 			
-				
 			
 				
 			
@@ -120,13 +111,7 @@
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
-			        
-						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
-			        
-						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-			        
-						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+						<a class="github" target="_blank" href="https://github.com/JerryZQS" title="github"><i class="icon-github"></i></a>
 			        
 				</div>
 			</nav>
@@ -135,9 +120,7 @@
 				<ul style="width: 50%">
 				
 				
-					<li style="width: 50%"><a href="/">主页</a></li>
-		        
-					<li style="width: 50%"><a href="/tags/随笔/">随笔</a></li>
+					<li style="width: 100%"><a href="/">技术相关</a></li>
 		        
 				</ul>
 			</nav>
@@ -178,10 +161,99 @@
 <p>在iOS10更新后，系统设置跳转被禁用，只能跳转App设置? NO, NO, NO, 看这里，又可以换个姿势愉快的跳转啦。</p>
 </blockquote>
 <p>其实方法很简单，例如原有跳转Wi-Fi设置是”prefs:root=WIFI”，新的写法是”App-Prefs:root=WIFI”。怎么样，是不是很简单！！！</p>
-<p>####<u><strong>在非iOS10手机中，也可以用此方法进行跳转，但不保证跳转正确性</strong></u><br>非iOS10系统跳转，可以参考<a href="http://www.jianshu.com/p/32ca4bcda3d1" target="_blank" rel="external">这里(未测试)</a>。</p>
-<p>###Objective-c<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">#define iOS10 ([[UIDevice currentDevice].systemVersion doubleValue] &gt;= 10.0)</div><div class="line">NSString * urlString = @&quot;App-Prefs:root=WIFI&quot;;</div><div class="line">if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:urlString]]) &#123;</div><div class="line">	if (iOS10) &#123;</div><div class="line">		[[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString] options:@&#123;&#125; completionHandler:nil];</div><div class="line">	&#125; else &#123;</div><div class="line">		[[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]];</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>###Swift<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">if let url = URL(string:&quot;App-Prefs:root=WIFI&quot;) &#123;</div><div class="line">      if #available(iOS 10.0, *) &#123;</div><div class="line">            UIApplication.shared.open(url, options: [:], completionHandler: nil)</div><div class="line">      &#125; else &#123;</div><div class="line">            UIApplication.shared.openURL(url)</div><div class="line">      &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>###当前iOS10支持的所有跳转,亲测可用（测试系统：10.2.1）<br>|          跳转        | 写法  |<br>|:————-|:—————|<br>| 无线局域网        | App-Prefs:root=WIFI |<br>| 蓝牙              | App-Prefs:root=Bluetooth |<br>| 蜂窝移动网络        | App-Prefs:root=MOBILE_DATA_SETTINGS_ID |<br>| 个人热点            | App-Prefs:root=INTERNET_TETHERING |<br>| 运营商            | App-Prefs:root=Carrier |<br>| 通知                | App-Prefs:root=NOTIFICATIONS_ID|<br>| 通用                | App-Prefs:root=General|<br>| 通用-关于本机        | App-Prefs:root=General&amp;path=About|<br>| 通用-键盘            | App-Prefs:root=General&amp;path=Keyboard|<br>| 通用-辅助功能        | App-Prefs:root=General&amp;path=ACCESSIBILITY |<br>| 通用-语言与地区    | App-Prefs:root=General&amp;path=INTERNATIONAL |<br>| 通用-还原            | App-Prefs:root=Reset |<br>| 墙纸                | App-Prefs:root=Wallpaper|<br>| Siri                | App-Prefs:root=SIRI|<br>| 隐私                | App-Prefs:root=Privacy|<br>| Safari            | App-Prefs:root=SAFARI|<br>| 音乐                | App-Prefs:root=MUSIC|<br>| 音乐-均衡器        | App-Prefs:root=MUSIC&amp;path=com.apple.Music:EQ|<br>| 照片与相机        | App-Prefs:root=Photos|<br>| FaceTime        | App-Prefs:root=FACETIME|</p>
+<h3 id="在非iOS10手机中，也可以用此方法进行跳转，但不保证跳转正确性"><a href="#在非iOS10手机中，也可以用此方法进行跳转，但不保证跳转正确性" class="headerlink" title="在非iOS10手机中，也可以用此方法进行跳转，但不保证跳转正确性"></a><u><strong>在非iOS10手机中，也可以用此方法进行跳转，但不保证跳转正确性</strong></u></h3><p>非iOS10系统跳转，可以参考<a href="http://www.jianshu.com/p/32ca4bcda3d1" target="_blank" rel="external">这里(未测试)</a>。</p>
+<h3 id="Objective-c"><a href="#Objective-c" class="headerlink" title="Objective-c"></a>Objective-c</h3><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#define iOS10 ([[UIDevice currentDevice].systemVersion doubleValue] &gt;= 10.0)</span></div><div class="line"><span class="built_in">NSString</span> * urlString = <span class="string">@"App-Prefs:root=WIFI"</span>;</div><div class="line"><span class="keyword">if</span> ([[<span class="built_in">UIApplication</span> sharedApplication] canOpenURL:[<span class="built_in">NSURL</span> URLWithString:urlString]]) &#123;</div><div class="line">	<span class="keyword">if</span> (iOS10) &#123;</div><div class="line">		[[<span class="built_in">UIApplication</span> sharedApplication] openURL:[<span class="built_in">NSURL</span> URLWithString:urlString] options:@&#123;&#125; completionHandler:<span class="literal">nil</span>];</div><div class="line">	&#125; <span class="keyword">else</span> &#123;</div><div class="line">		[[<span class="built_in">UIApplication</span> sharedApplication] openURL:[<span class="built_in">NSURL</span> URLWithString:urlString]];</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="Swift"><a href="#Swift" class="headerlink" title="Swift"></a>Swift</h3><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span> <span class="keyword">let</span> url = <span class="type">URL</span>(string:<span class="string">"App-Prefs:root=WIFI"</span>) &#123;</div><div class="line">      <span class="keyword">if</span> #available(iOS <span class="number">10.0</span>, *) &#123;</div><div class="line">            <span class="type">UIApplication</span>.shared.<span class="keyword">open</span>(url, options: [:], completionHandler: <span class="literal">nil</span>)</div><div class="line">      &#125; <span class="keyword">else</span> &#123;</div><div class="line">            <span class="type">UIApplication</span>.shared.openURL(url)</div><div class="line">      &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="当前iOS10支持的所有跳转-亲测可用（测试系统：10-2-1）"><a href="#当前iOS10支持的所有跳转-亲测可用（测试系统：10-2-1）" class="headerlink" title="当前iOS10支持的所有跳转,亲测可用（测试系统：10.2.1）"></a>当前iOS10支持的所有跳转,亲测可用（测试系统：10.2.1）</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">跳转</th>
+<th style="text-align:left">写法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">无线局域网</td>
+<td style="text-align:left">App-Prefs:root=WIFI</td>
+</tr>
+<tr>
+<td style="text-align:left">蓝牙</td>
+<td style="text-align:left">App-Prefs:root=Bluetooth</td>
+</tr>
+<tr>
+<td style="text-align:left">蜂窝移动网络</td>
+<td style="text-align:left">App-Prefs:root=MOBILE_DATA_SETTINGS_ID</td>
+</tr>
+<tr>
+<td style="text-align:left">个人热点</td>
+<td style="text-align:left">App-Prefs:root=INTERNET_TETHERING</td>
+</tr>
+<tr>
+<td style="text-align:left">运营商</td>
+<td style="text-align:left">App-Prefs:root=Carrier</td>
+</tr>
+<tr>
+<td style="text-align:left">通知</td>
+<td style="text-align:left">App-Prefs:root=NOTIFICATIONS_ID</td>
+</tr>
+<tr>
+<td style="text-align:left">通用</td>
+<td style="text-align:left">App-Prefs:root=General</td>
+</tr>
+<tr>
+<td style="text-align:left">通用-关于本机</td>
+<td style="text-align:left">App-Prefs:root=General&amp;path=About</td>
+</tr>
+<tr>
+<td style="text-align:left">通用-键盘</td>
+<td style="text-align:left">App-Prefs:root=General&amp;path=Keyboard</td>
+</tr>
+<tr>
+<td style="text-align:left">通用-辅助功能</td>
+<td style="text-align:left">App-Prefs:root=General&amp;path=ACCESSIBILITY</td>
+</tr>
+<tr>
+<td style="text-align:left">通用-语言与地区</td>
+<td style="text-align:left">App-Prefs:root=General&amp;path=INTERNATIONAL</td>
+</tr>
+<tr>
+<td style="text-align:left">通用-还原</td>
+<td style="text-align:left">App-Prefs:root=Reset</td>
+</tr>
+<tr>
+<td style="text-align:left">墙纸</td>
+<td style="text-align:left">App-Prefs:root=Wallpaper</td>
+</tr>
+<tr>
+<td style="text-align:left">Siri</td>
+<td style="text-align:left">App-Prefs:root=SIRI</td>
+</tr>
+<tr>
+<td style="text-align:left">隐私</td>
+<td style="text-align:left">App-Prefs:root=Privacy</td>
+</tr>
+<tr>
+<td style="text-align:left">Safari</td>
+<td style="text-align:left">App-Prefs:root=SAFARI</td>
+</tr>
+<tr>
+<td style="text-align:left">音乐</td>
+<td style="text-align:left">App-Prefs:root=MUSIC</td>
+</tr>
+<tr>
+<td style="text-align:left">音乐-均衡器</td>
+<td style="text-align:left">App-Prefs:root=MUSIC&amp;path=com.apple.Music:EQ</td>
+</tr>
+<tr>
+<td style="text-align:left">照片与相机</td>
+<td style="text-align:left">App-Prefs:root=Photos</td>
+</tr>
+<tr>
+<td style="text-align:left">FaceTime</td>
+<td style="text-align:left">App-Prefs:root=FACETIME</td>
+</tr>
+</tbody>
+</table>
 
       
 
@@ -190,6 +262,21 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">iOS10</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">URL Scheme</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -234,7 +321,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2017 Jerry.Qiushi
+    		&copy; 2017 Jerry
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -278,25 +365,17 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
       
     
-      
-      
-      
-    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
-      
-        
-      
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -315,6 +394,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">iOS10</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">URL Scheme</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
@@ -360,43 +447,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
 
     
-    	<section class="tools-section tools-section-friends" q-show="friends">
-  		
-        <ul class="search-ul">
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接3</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接4</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接5</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
-            </li>
-          
-        </ul>
-  		
-    	</section>
-    
 
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">iOSer&lt;br&gt;爱摄影&lt;br&gt;爱妹子</div>
   	  	
     	</section>
     
